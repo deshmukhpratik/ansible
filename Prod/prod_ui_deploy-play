@@ -62,13 +62,3 @@
           name: httpd
           state: restarted     
         when: live == "yes"
-
-# - name: Sending messege for notification
-#   gather_facts: false
-#   hosts: local
-#   tasks:  
-#   - name: "send messege....." 
-#     telegram:
-#        token: ''
-#        chat_id:
-#        msg: " tag is copied on all Prod web servers"
