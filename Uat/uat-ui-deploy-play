@@ -1,6 +1,6 @@
 ---
  - name: play for deploying branch on local
-   gather_facts: false
+   gather_facts: false                                    # gathering facts of remots hosts
    hosts: local
    vars:
        git_dir: /home/ansible/git_deployment
