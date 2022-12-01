@@ -43,7 +43,7 @@
               private: no
    hosts: web
    gather_facts: false
-   become: true    
+   become: true                                                                   #it means that the privilege_escalation will be always executed by default
    become_user: root
    tags:
      - deploy   
